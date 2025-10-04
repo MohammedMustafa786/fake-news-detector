@@ -1,0 +1,351 @@
+{
+  "timestamp": "2025-10-02T12:43:28.889781",
+  "tests": {
+    "news_source_performance": {
+      "BBC": [
+        {
+          "headline": "UK inflation rate falls to 4.6% in October, ONS data shows",
+          "prediction": "FAKE NEWS",
+          "confidence": 0.40305025846744397,
+          "reasoning": "Based primarily on ML analysis (limited fact verification)"
+        },
+        {
+          "headline": "Climate summit agrees to transition away from fossil fuels",
+          "prediction": "REAL NEWS",
+          "confidence": 0.35874999999999985,
+          "reasoning": "Based primarily on ML analysis (limited fact verification)"
+        },
+        {
+          "headline": "New study links processed meat to increased cancer risk",
+          "prediction": "REAL NEWS",
+          "confidence": 0.55126842212294,
+          "reasoning": "Based primarily on ML analysis (limited fact verification)"
+        },
+        {
+          "headline": "Government announces \u00a32bn investment in renewable energy",
+          "prediction": "REAL NEWS",
+          "confidence": 0.43994397893285087,
+          "reasoning": "Based primarily on ML analysis (limited fact verification)"
+        }
+      ],
+      "CNN": [
+        {
+          "headline": "White House announces new sanctions against foreign adversaries",
+          "prediction": "FAKE NEWS",
+          "confidence": 0.44972481936156816,
+          "reasoning": "Based primarily on ML analysis (limited fact verification)"
+        },
+        {
+          "headline": "Federal Reserve keeps interest rates steady amid economic uncertainty",
+          "prediction": "REAL NEWS",
+          "confidence": 0.6996388939830833,
+          "reasoning": "Based primarily on ML analysis (limited fact verification)"
+        },
+        {
+          "headline": "Supreme Court to hear landmark case on digital privacy rights",
+          "prediction": "REAL NEWS",
+          "confidence": 0.4535604617640077,
+          "reasoning": "Based primarily on ML analysis (limited fact verification)"
+        },
+        {
+          "headline": "NASA launches new mission to study Mars atmosphere",
+          "prediction": "REAL NEWS",
+          "confidence": 0.648708960829521,
+          "reasoning": "Based primarily on ML analysis (limited fact verification)"
+        }
+      ],
+      "Fox": [
+        {
+          "headline": "Border patrol reports increase in illegal crossings this month",
+          "prediction": "REAL NEWS",
+          "confidence": 0.5392733022854355,
+          "reasoning": "Based primarily on ML analysis (limited fact verification)"
+        },
+        {
+          "headline": "Congressional hearing reveals concerns about government spending",
+          "prediction": "FAKE NEWS",
+          "confidence": 0.5846506701538347,
+          "reasoning": "Based primarily on ML analysis (limited fact verification)"
+        },
+        {
+          "headline": "Small business owners struggle with new regulatory requirements",
+          "prediction": "REAL NEWS",
+          "confidence": 0.618409212342175,
+          "reasoning": "Based primarily on ML analysis (limited fact verification)"
+        },
+        {
+          "headline": "Energy sector sees growth amid policy changes",
+          "prediction": "REAL NEWS",
+          "confidence": 0.697059668754328,
+          "reasoning": "Based primarily on ML analysis (limited fact verification)"
+        }
+      ],
+      "Social_Media_Real": [
+        {
+          "headline": "Just read an interesting article about renewable energy trends",
+          "prediction": "REAL NEWS",
+          "confidence": 0.6867257708236234,
+          "reasoning": "Based primarily on ML analysis (limited fact verification)"
+        },
+        {
+          "headline": "Local hospital announces new cancer treatment program available",
+          "prediction": "REAL NEWS",
+          "confidence": 0.43440565372544543,
+          "reasoning": "Based primarily on ML analysis (limited fact verification)"
+        },
+        {
+          "headline": "University study shows benefits of exercise for mental health",
+          "prediction": "REAL NEWS",
+          "confidence": 0.592194623527967,
+          "reasoning": "Based primarily on ML analysis (limited fact verification)"
+        },
+        {
+          "headline": "City council approves budget for new public transportation",
+          "prediction": "REAL NEWS",
+          "confidence": 0.6800805954593442,
+          "reasoning": "Based primarily on ML analysis (limited fact verification)"
+        }
+      ],
+      "Social_Media_Fake": [
+        {
+          "headline": "OMG! Doctors HATE this one simple trick that cures everything!!!",
+          "prediction": "FAKE NEWS",
+          "confidence": 0.6999280861013256,
+          "reasoning": "Based primarily on ML analysis (limited fact verification)"
+        },
+        {
+          "headline": "BREAKING: Government hiding alien technology in Area 51 confirmed!!!",
+          "prediction": "FAKE NEWS",
+          "confidence": 0.6791412223964489,
+          "reasoning": "Based primarily on ML analysis (limited fact verification)"
+        },
+        {
+          "headline": "This mom lost 50 pounds in a week with this weird trick!",
+          "prediction": "FAKE NEWS",
+          "confidence": 0.6938583948192477,
+          "reasoning": "Based primarily on ML analysis (limited fact verification)"
+        },
+        {
+          "headline": "SHOCKING: Your phone is listening to your thoughts 24/7!!!",
+          "prediction": "FAKE NEWS",
+          "confidence": 0.6960779088566228,
+          "reasoning": "Based primarily on ML analysis (limited fact verification)"
+        }
+      ]
+    },
+    "satire_detection": [
+      {
+        "text": "Local Man Discovers Revolutionary Way to Avoid Traffic: Walking",
+        "type": "satire",
+        "expected": "should_detect_as_satirical",
+        "prediction": "FAKE NEWS",
+        "confidence": 0.40705817427257907,
+        "reasoning": "Based primarily on ML analysis (limited fact verification)"
+      },
+      {
+        "text": "Area Woman Reportedly 'Living Her Best Life' After Buying Expensive Coffee",
+        "type": "satire",
+        "expected": "should_detect_as_satirical",
+        "prediction": "REAL NEWS",
+        "confidence": 0.455262586652386,
+        "reasoning": "Based primarily on ML analysis (limited fact verification)"
+      },
+      {
+        "text": "BREAKING: Scientists Discover Water is Wet, More Research Needed",
+        "type": "satire",
+        "expected": "should_detect_as_satirical",
+        "prediction": "FAKE NEWS",
+        "confidence": 0.47776130803906136,
+        "reasoning": "Based primarily on ML analysis (limited fact verification)"
+      },
+      {
+        "text": "The Federal Reserve announced a decision to maintain current interest rates",
+        "type": "real_news",
+        "expected": "should_detect_as_real",
+        "prediction": "REAL NEWS",
+        "confidence": 0.6984223942850678,
+        "reasoning": "Based primarily on ML analysis (limited fact verification)"
+      },
+      {
+        "text": "Research team publishes findings on climate change in Nature journal",
+        "type": "real_news",
+        "expected": "should_detect_as_real",
+        "prediction": "REAL NEWS",
+        "confidence": 0.6968535683974569,
+        "reasoning": "Based primarily on ML analysis (limited fact verification)"
+      }
+    ],
+    "bias_analysis": {
+      "political_neutral": {
+        "results": [
+          {
+            "text": "Congress passes bipartisan infrastructure bill with majority support",
+            "prediction": "REAL NEWS",
+            "confidence": 0.6332860971123496,
+            "ml_fake_prob": 0.09530557555378737
+          },
+          {
+            "text": "Supreme Court hears arguments in constitutional law case",
+            "prediction": "REAL NEWS",
+            "confidence": 0.43043528192083336,
+            "ml_fake_prob": 0.3850924543988112
+          },
+          {
+            "text": "Federal agencies release annual budget reports for public review",
+            "prediction": "REAL NEWS",
+            "confidence": 0.6999189785141553,
+            "ml_fake_prob": 0.00011574497977926728
+          }
+        ],
+        "fake_rate": 0.0,
+        "total_tested": 3
+      },
+      "political_left_leaning": {
+        "results": [
+          {
+            "text": "Progressive policies show promise in reducing income inequality",
+            "prediction": "REAL NEWS",
+            "confidence": 0.5069287708370535,
+            "ml_fake_prob": 0.27581604166135265
+          },
+          {
+            "text": "Environmental regulations protect communities from industrial pollution",
+            "prediction": "REAL NEWS",
+            "confidence": 0.6568088825866008,
+            "ml_fake_prob": 0.06170159630485548
+          },
+          {
+            "text": "Universal healthcare system reduces medical bankruptcies",
+            "prediction": "REAL NEWS",
+            "confidence": 0.6897947323895769,
+            "ml_fake_prob": 0.014578953729176055
+          }
+        ],
+        "fake_rate": 0.0,
+        "total_tested": 3
+      },
+      "political_right_leaning": {
+        "results": [
+          {
+            "text": "Tax cuts stimulate small business growth and job creation",
+            "prediction": "REAL NEWS",
+            "confidence": 0.6551569771482123,
+            "ml_fake_prob": 0.06406146121683821
+          },
+          {
+            "text": "Deregulation allows market forces to drive economic efficiency",
+            "prediction": "REAL NEWS",
+            "confidence": 0.6654732662966519,
+            "ml_fake_prob": 0.04932390529049641
+          },
+          {
+            "text": "Strong border security protects national sovereignty and safety",
+            "prediction": "REAL NEWS",
+            "confidence": 0.6058912684951754,
+            "ml_fake_prob": 0.1344410450068916
+          }
+        ],
+        "fake_rate": 0.0,
+        "total_tested": 3
+      },
+      "science_factual": {
+        "results": [
+          {
+            "text": "Peer-reviewed study confirms effectiveness of vaccine in clinical trials",
+            "prediction": "REAL NEWS",
+            "confidence": 0.6991186834558368,
+            "ml_fake_prob": 0.0012590236345204646
+          },
+          {
+            "text": "Climate data shows temperature increases over past century",
+            "prediction": "REAL NEWS",
+            "confidence": 0.4072677996691455,
+            "ml_fake_prob": 0.41818885761550584
+          },
+          {
+            "text": "Medical researchers identify genetic factors in disease susceptibility",
+            "prediction": "REAL NEWS",
+            "confidence": 0.6973256555219675,
+            "ml_fake_prob": 0.0038204921114747023
+          }
+        ],
+        "fake_rate": 0.0,
+        "total_tested": 3
+      },
+      "conspiracy_prone": {
+        "results": [
+          {
+            "text": "Government agencies coordinate response to public health emergency",
+            "prediction": "REAL NEWS",
+            "confidence": 0.6790455727516908,
+            "ml_fake_prob": 0.02993489606901336
+          },
+          {
+            "text": "International organizations collaborate on global issues",
+            "prediction": "REAL NEWS",
+            "confidence": 0.683843552027682,
+            "ml_fake_prob": 0.023080639960454306
+          },
+          {
+            "text": "Tech companies implement new data privacy measures",
+            "prediction": "FAKE NEWS",
+            "confidence": 0.6870366005612446,
+            "ml_fake_prob": 0.9814808579446352
+          }
+        ],
+        "fake_rate": 0.3333333333333333,
+        "total_tested": 3
+      }
+    },
+    "multilingual_robustness": [
+      {
+        "language": "English",
+        "type": "real",
+        "text": "Scientists publish research findings in peer-reviewed journal",
+        "prediction": "REAL NEWS",
+        "confidence": 0.6997168086194409,
+        "ml_confidence": 0.9995954408849156
+      },
+      {
+        "language": "Spanish_style",
+        "type": "real_translated",
+        "text": "Los cient\u00edficos publican hallazgos de investigaci\u00f3n en revista revisada por pares",
+        "prediction": "REAL NEWS",
+        "confidence": 0.35874999999999985,
+        "ml_confidence": 0.5124999999999998
+      },
+      {
+        "language": "Translation_artifacts",
+        "type": "translated_awkward",
+        "text": "The scientists they publish the findings of research in journal reviewed by the peers",
+        "prediction": "REAL NEWS",
+        "confidence": 0.6994629992117192,
+        "ml_confidence": 0.9992328560167417
+      },
+      {
+        "language": "Non_Western_style",
+        "type": "formal_non_western",
+        "text": "According to ministry sources, the economic indicators show steady growth pattern",
+        "prediction": "REAL NEWS",
+        "confidence": 0.6810493808566808,
+        "ml_confidence": 0.9729276869381154
+      },
+      {
+        "language": "Mixed_language",
+        "type": "code_switched",
+        "text": "Breaking news: gouvernement announces nouvelle politique for \u00e9conomie development",
+        "prediction": "REAL NEWS",
+        "confidence": 0.5066617577472422,
+        "ml_confidence": 0.7238025110674888
+      }
+    ]
+  },
+  "overall_report": {
+    "overall_assessment": "PASS",
+    "total_tests_conducted": 20,
+    "concerning_patterns": [],
+    "recommendations": [
+      "\u2705 Model shows good robustness across tested dimensions"
+    ]
+  }
+}
