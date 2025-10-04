@@ -450,10 +450,13 @@ if __name__ == '__main__':
         print("📁 Make sure model files exist in models_multilingual/")
         print()
     
+    # Get port from environment (Railway provides this)
+    port = int(os.environ.get('PORT', 5000))
+    
     # Run Flask app
     app.run(
         host='0.0.0.0',  # Allow external connections
-        port=5000,
+        port=port,
         debug=False,  # Set to True for development
         threaded=True  # Handle multiple requests
     )
