@@ -8,7 +8,9 @@
 
 > 🎯 **A production-ready AI system that detects fake news across multiple languages with 92%+ accuracy**
 
-![Demo Screenshot]<img width="1242" height="883" alt="image" src="https://github.com/user-attachments/assets/138e6f9c-6fb5-4695-9b77-1bdbc0ee60a8" />
+![WEB Demo Screenshot]<img width="1242" height="883" alt="image" src="https://github.com/user-attachments/assets/138e6f9c-6fb5-4695-9b77-1bdbc0ee60a8" />
+![API DEMO]<img width="1254" height="867" alt="image" src="https://github.com/user-attachments/assets/4b52595e-bee2-4ff3-833f-fec974b343da" />
+1[Streamlit DEMO]<img width="1827" height="832" alt="image" src="https://github.com/user-attachments/assets/09616b46-2944-489f-afa5-3eccf54aac9f" />
 
 
 ## ✨ **Key Features**
