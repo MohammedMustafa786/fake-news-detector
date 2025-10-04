@@ -207,7 +207,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-## 🙏 **Acknowledgments**
+##  **Acknowledgments**
 
 - **Built with**: scikit-learn, NLTK, Flask, Streamlit, tkinter
 - **Data Sources**: Verified multilingual news datasets
